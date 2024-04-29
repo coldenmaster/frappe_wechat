@@ -1,11 +1,17 @@
 {
-"actions": [],
-"allow_events_in_timeline": 1,
-"allow_import": 1,
+ "allow_copy": 0,
+ "allow_events_in_timeline": 0,
+ "allow_guest_to_view": 0,
+ "allow_import": 0,
+ "allow_rename": 0,
  "autoname": "MSG.#########",
+ "beta": 0,
  "creation": "2017-03-16 16:16:35.406220",
+ "custom": 0,
+ "docstatus": 0,
  "doctype": "DocType",
- "document_type": "Other",
+ "document_type": "Document",
+ "editable_grid": 1,
  "engine": "InnoDB",
  "fields": [
   {
@@ -327,6 +333,7 @@
  "modified_by": "Administrator",
  "module": "Wechat",
  "name": "Wechat Send Doc",
+ "name_case": "",
  "owner": "Administrator",
  "permissions": [
   {
@@ -349,7 +356,12 @@
    "write": 1
   }
  ],
+ "quick_entry": 0,
+ "read_only": 0,
+ "show_name_in_global_search": 0,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "track_changes": 1,
+ "track_seen": 0,
+ "track_views": 0
 }
